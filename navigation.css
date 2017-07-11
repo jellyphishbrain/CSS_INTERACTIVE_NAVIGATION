@@ -1,0 +1,17 @@
+.navigation li {
+	display: inline-block;
+}
+
+.navigation > li:hover {
+	background: blue;
+}
+
+.navigation > li > a:hover {
+	color: red;
+}
+
+.navigation > li:active {
+	padding: 0px 5px;
+}
+
+
